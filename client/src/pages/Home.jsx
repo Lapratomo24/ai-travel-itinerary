@@ -5,9 +5,9 @@ import { FaSpinner } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 // Component Imports
-import Hero from '../components/Hero';
-import Form from '../components/Form';
-import ItineraryCard from '../components/ItineraryCard';
+import Hero from '../components/Hero.jsx';
+import Form from '../components/Form.jsx';
+import ItineraryCard from '../components/ItineraryCard,jsx';
 
 const Home = () => {
     const [itinerary, setItinerary] = useState(null);

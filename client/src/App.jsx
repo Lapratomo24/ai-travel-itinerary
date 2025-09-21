@@ -1,8 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
-import Footer from './components/Footer';
+// import Home from './pages/Home';
+// import About from './pages/About';
+import Home from './pages/Home.jsx';
+import About from './pages/About.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
     return (
